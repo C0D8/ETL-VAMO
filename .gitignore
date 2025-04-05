@@ -1,0 +1,32 @@
+# Artefatos de build gerados pelo Dune
+_build/
+*.install
+
+# Arquivos de saída gerados pelo programa
+output*.csv
+monthly_avg.csv
+
+
+# Arquivos temporários e de backup
+*~
+*.swp
+*.swo
+
+# Diretórios e arquivos de dependências locais (se houver)
+_opam/
+*.opam
+
+# Arquivos de log ou depuração (se aplicável)
+*.log
+
+# Arquivos de configuração local do editor ou IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de cache do OCaml/OPAM
+*.d
+*.o
+*.a
+*.cm*
+*.annot

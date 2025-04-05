@@ -1,0 +1,27 @@
+(lang dune 3.17)
+
+(name order_processing)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Author Name <author@example.com>")
+
+(maintainers "Maintainer Name <maintainer@example.com>")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name order_processing)
+ (synopsis "A short synopsis")
+ (description "A longer description")
+ (depends
+  ocaml
+  dune
+  csv)  ; Adicionada a dependência da biblioteca csv
+ (tags
+  ("order processing" "csv" "ocaml")))
